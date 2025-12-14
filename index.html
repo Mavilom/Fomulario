@@ -173,6 +173,10 @@ button:hover {
               <label for="dataNascimento">Data Nascimento:*</label>
               <input type="date" id="dataNascimento"  required />
             </div>
+               <div class="form-group">
+              <label for="naturalidade">Naturalidade:*</label>
+              <input type="text" id="naturalidade" placeholder="Obrigatório" required />
+            </div>
             <div class="form-group">
                 <label for="sexo">Sexo:*</label>
                 <select id="sexo" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;"  required>
@@ -335,6 +339,7 @@ button:hover {
   "Sobrenome": document.getElementById("sobrenome").value,
   "Estado Civil": document.getElementById("estadoCivil").value,
   "Data de Nascimento": document.getElementById("dataNascimento").value,
+  "Naturalidade": document.getElementByid("naturalidade").value,
   "Sexo": document.getElementById("sexo").value,
   "Data Cadastro": document.getElementById("dataCadastro").value,
 
